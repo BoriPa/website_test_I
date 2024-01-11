@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecânica Geral</title>
+    <link rel="stylesheet" href="index.css">
+    <link  rel="icon" type="image/x-icon" href="img/logo-color-favicon.png">
+    <script src="https://kit.fontawesome.com/d8be04d6b6.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="js/index_home.js" defer></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="icon" id="icon">
+            <h1><strong><em><span class="hidden_I">Mecânica</span> Lorem</em></strong></h1>
+        </div>
+        <div class="navbar" id="navbar">
+            <a href="#" class="toggle-button" id="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html" title="Home">Home</a></li>
+                    <li><a href="about.html" title="Sobre">Sobre</a></li>
+                    <li><a href="products.html" title="Produtos">Produtos</a></li>
+                    <li><a href="contact.html" title="Contatos">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="slide_container">
+            <div class="slides">
+                <div class="slide_in">
+                    <img src="img/auto-2179220_1280.jpg" class="active" alt="">
+                    <p>Mecânica Lorem</p>
+                </div>
+                <div class="slide_in">
+                    <img src="img/car-1300629_1280.png" alt="">
+                    <p>Mecânica Lorem</p>
+                </div>
+                <div class="slide_in">
+                    <img src="img/car-604019_1280.jpg" alt="">
+                    <p>Mecânica Lorem</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <span class="next">&#10095;</span>
+                <span class="prev">&#10094;</span>
+            </div>
+            <div class="dotsContainer">
+                <div class="dot active" attr="0" onclick="switchImage(this)"></div>
+                <div class="dot" attr="1" onclick="switchImage(this)"></div>
+                <div class="dot" attr="2" onclick="switchImage(this)"></div>
+            </div>
+        </div>
+        <div class="home_main">
+            <div class="home_main_I">
+                <div>
+                    <img src="img/logo-color-fotor.png" alt="">
+                </div>
+                <div class="home_main_I_text">
+                    <h2>Sobre Mecânica Lorem</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit assumenda illo quae sequi earum quod debitis temporibus veritatis ab error sed, nemo officia, vitae magni totam ad repellat ipsam, voluptatem culpa esse voluptatum quo asperiores.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta aperiam itaque cum inventore, minus ut amet repudiandae facere porro ipsum reiciendis facilis perspiciatis vitae at sed, molestias recusandae corrupti explicabo delectus doloribus soluta modi. Non.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus ad reiciendis iure adipisci in vitae. Ullam reiciendis laboriosam itaque animi repellendus molestiae vel repellat, labore tempora qui illum magni! Vel voluptatibus suscipit quae incidunt.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima delectus ad reiciendis iure adipisci in vitae. Ullam reiciendis laboriosam itaque animi repellendus molestiae vel repellat, labore tempora qui illum magni! Vel voluptatibus suscipit quae incidunt.</p><br>
+                    <a href="" title="Sobre">Mais info</a>
+                </div>
+            </div>
+        </div><hr>
+        <div class="home_central">
+            <div>
+                <h2>Nossos produtos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae quibusdam hic?</p>
+            </div>
+            <div class="home_central_I">
+                <div class="thumbnail margin">
+                    <a href="products.html" class="on_top">
+                        <p>Lorem, ipsum</p>
+                        <img src="img/oil - Copy.jpg" alt="">
+                    </a>
+                </div>
+                <div class="thumbnail margin">
+                    <a href="products.html" class="on_top">
+                        <p>Lorem, ipsum</p>
+                        <img src="img/oil - Copy.jpg" alt="">
+                    </a>
+                </div>
+                <div class="thumbnail margin">
+                    <a href="products.html" class="on_top">
+                        <p>Lorem, ipsum</p>
+                        <img src="img/oil - Copy.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div  class="home_central_I hidden_main_products" >
+                <div class="thumbnail">
+                    <a href="products.html" class="on_top">
+                        <p>Lorem, ipsum</p>
+                        <img src="img/oil - Copy.jpg" alt="">
+                    </a>
+                </div>
+                <div class="thumbnail">
+                    <a href="products.html" class="on_top">
+                        <p>Lorem, ipsum</p>
+                        <img src="img/oil - Copy.jpg" alt="">
+                    </a>
+                </div>
+                <div class="thumbnail">
+                    <a href="products.html" class="on_top">
+                        <p>Lorem, ipsum</p>
+                        <img src="img/oil - Copy.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div><hr>
+        <div class="home_contact">
+            <div class="home_contact_text">
+                <h3>Contact nos hoje</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos cum dolore architecto</p>
+            </div>
+            <div class="home_contact_I">
+                <div class="home_contact_II thumbnail" >
+                    <a href="contact.html"><i class="fa-solid fa-map-location-dot"></i></a>
+                    <h3>Adress:</h3>
+                    <p>Av.Lorem ipsum dolor sit amet, Jabaquara</p>
+                </div>
+                <div class="home_contact_II thumbnail">
+                    <a href="contact.html"><i class="fa-solid fa-phone-volume"></i></a>
+                    <h3>Phone: </h3>
+                    <p>1234 -5678</p>
+                </div>
+                <div class="home_contact_II thumbnail"  >
+                    <a href="contact.html"><i class="fa-solid fa-info"></i></a>
+                    <h3>Working de hours</h3>
+                    <p>Segunda e Sabado 08:00 - 17:00</p>
+                </div>
+            </div>
+        </div>
+        <button id="go_top" class="hidden"><i class="fa-solid fa-arrow-up"></i></button>
+        <div class="whatsapp_btn_con" >
+            <a class="whatsapp_btn" href="https://wa.me/5511" target="_blank"><i id="fa_pop" class="fa fa-whatsapp"></i></a>
+            <span>Contate</span>
+        </div>
+        <div class="footer_nav">
+                <div>
+                    <ul>
+                        <li><a href="index.html" title="Home">Home</a></li>
+                        <li><a href="about.html" title="Sobre">Sobre</a></li>
+                        <li><a href="products.html" title="Produtos">Produtos</a></li>
+                        <li><a href="contact.html" title="Contatos">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    Av. Lorem ipsum dolor sit amet , Jabaquara                    
+                </div>
+                <div>
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="footer">
+            <p>Copyrights &copy; Lorem ipsum dolor sit</p>
+        </div>            
+    </div>    
+</body>
+</html>
