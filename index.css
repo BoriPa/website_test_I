@@ -111,7 +111,7 @@ hr{
 }
 #toggle-button{
     position: absolute;
-    top: 1rem;
+    top: 1.2rem;
     right: 1rem;
     flex-direction: column;
     justify-content: space-between;
@@ -138,7 +138,6 @@ hr{
     align-items: center;
     background-color: #040606	;
     color: #fff;
-    padding:0 10px;
 }
 .navbar-links ul{
     margin: 0;
@@ -154,12 +153,19 @@ hr{
     padding: 1rem;
     display: block;
 }
-.navbar-links li:hover{
+.navbar-links li a:link,
+.navbar-links li a:visited {
+    text-decoration: none;
+}
+.navbar-links li a:hover{
+    background-color: #8C1B1E;
+}
+.navbar-links li a:active {
     background-color: #8C1B1E;
 }
 .toggle-button{
     position: absolute;
-    top: 1rem;
+    top: 1.2rem;
     right: 1rem;
     display: none;
     flex-direction: column;
