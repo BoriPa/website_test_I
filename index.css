@@ -492,6 +492,9 @@ header h1{
     align-items: center;
     text-align: center;
 }
+.product_ul ul{
+    padding: 0;
+}
 .product_ul li{
     list-style: none;
     padding: .4rem;
