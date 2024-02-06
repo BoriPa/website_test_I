@@ -90,7 +90,7 @@ function indicator(){
 //Add click event to the indicator
 function switchImage(currentImage){
 	currentImage.classList.add('active');
-	var imageID = currentImage.getAttribute('attr');
+	var imageID = currentImage.getAttribute('id');
 	if(imageID > counter){
 		slideImages[counter].style.animation = 'next1 0.5s ease-in forwards';
 		counter = imageID;
