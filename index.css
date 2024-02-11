@@ -413,6 +413,7 @@ span.next:hover,span.prev:hover{
 }
 .contact_central_I{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
     padding: 20px;
@@ -588,9 +589,6 @@ header h1, header p{
     .contact_central{
         width: 90%;
     }
-    .contact_central_I{
-        flex-direction: column;
-    }
     .contact_main{
         margin: 0;
     }
@@ -637,5 +635,8 @@ header h1, header p{
     }
     .icon h1{
         margin: 10px;
+    }
+    .contact_central_I{
+        flex-direction: column;
     }
 }
