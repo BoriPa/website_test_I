@@ -43,8 +43,11 @@ hr{
     z-index:999; 
     cursor: pointer; 
     -webkit-transition-property: all; 
+    transition-property:all;
     -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
     -webkit-transition-timing-function: ease; 
+    transition-timing-function: ease;
 } 
 .thumbnail:hover {   
     transform: scale(1.125); 
@@ -175,7 +178,7 @@ hr{
 }
 .slide_container .slides{
     width: 100%;
-    height: calc(100% - 13px);
+    height:100%;
     position: relative;
     overflow: hidden;
 }
@@ -213,24 +216,6 @@ span.next:hover,span.prev:hover{
     background-color: #8C1B1E;
     opacity: 0.8;
     color: #fff;
-}
-.dotsContainer{
-    position: absolute;
-    bottom: 0px;
-    z-index: 3;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.dotsContainer .dot{
-    width: 15px;
-    height: 5px;
-    margin: 0 2px;
-    border: 1px solid #040606;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.dotsContainer .active{
-    background-color: #8C1B1E;
 }
 @keyframes next1{
     from{
@@ -325,6 +310,9 @@ span.next:hover,span.prev:hover{
     box-shadow: 14px 15px 15px #040606;
 }
 .home_central_I a{
+    position: relative;
+}
+.on_top{
     position: relative;
 }
 .on_top p{
@@ -509,6 +497,7 @@ header h1, header p{
 }
 .about_central_I{
     width: 65%;
+    margin-bottom: 50px;
 }
 .about_main p{
     margin: 20px;
@@ -599,11 +588,15 @@ header h1, header p{
     .contact_central{
         width: 90%;
     }
+    .contact_central_I{
+        flex-direction: column;
+    }
     .contact_main{
         margin: 0;
     }
     .contact_main iframe{
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
     
 }
@@ -641,9 +634,6 @@ header h1, header p{
         left: 25px;
         bottom: 30px;
         right: auto;
-    }
-    .contact_central_I{
-        flex-direction: column;
     }
     .icon h1{
         margin: 10px;
