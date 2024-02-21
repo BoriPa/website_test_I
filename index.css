@@ -165,10 +165,11 @@ hr{
     bottom: 00%;
     right: 00%;
     margin: 0;
-    background-color: #b4b4b45e;
+    background-color: #b4b4b427;
     color: #fff;
     padding: 1rem;
     font-size: 2rem;
+    text-shadow: 3px 3px 3px #000;
 }
 .slide_container{
     position: relative;
@@ -353,6 +354,9 @@ span.next:hover,span.prev:hover{
 }
 .home_contact_II a{
     color: #000;
+}
+.home_contact_II i{
+    opacity: 0.4;
 }
 .fa-solid{
     font-size: 3rem;
