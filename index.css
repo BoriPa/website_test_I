@@ -152,7 +152,7 @@ hr{
 .toggle-button .bar{
     height: 3px;
     width: 100%;
-    background-color: #8C1B1E;
+    background-color: #000;
     border-radius: 10px;
 }
 /*navbar end ---> slide picture start*/
@@ -545,7 +545,7 @@ header h1, header p{
 @media(max-width: 850px){
     .toggle-button{
         display: flex;
-        top: 2.7rem;
+        top: 2.4rem;
         right: 1rem;
     }
     .navbar-links{
@@ -634,7 +634,7 @@ header h1, header p{
 @media(max-width: 450px){
     .toggle-button{
         display: flex;
-        top: 2.7rem;
+        top: 2.3rem;
         right: 1rem;
     }
     .navbar-links{
@@ -668,5 +668,8 @@ header h1, header p{
     }
     .contact_central_I{
         flex-direction: column;
+    }
+    .home_contact_text{
+        margin: 90px 0;
     }
 }

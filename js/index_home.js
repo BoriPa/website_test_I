@@ -13,6 +13,7 @@ console.log(goToTop);
 window.onscroll = () =>{
     scrollFunction();
 };
+
 function scrollFunction(){
     if(
         document.body.scrollTop > 300 ||
