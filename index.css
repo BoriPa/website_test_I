@@ -28,7 +28,7 @@ hr{
     align-self: self-end;
 }
 .icon{
-    margin-left: 50px;
+    margin-left: 20px;
     padding: 10px;
 }
 .icon h1{
@@ -57,11 +57,10 @@ hr{
 .navbar-links a:hover{
     background-color: #D40C16;
     color: #fff;
-    text-decoration: underline;
 }
 .toggle-button{
     position: absolute;
-    top: 2em;
+    top: 1.8em;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -176,7 +175,6 @@ span.next:hover,span.prev:hover{
 }
 .box img{
     margin: 10px auto;
-    border: 1px solid #000 ;
     border-radius: 50%;
     box-shadow: 0px 0px 19px 0 #383838;
 }
@@ -243,6 +241,7 @@ span.next:hover,span.prev:hover{
     margin: 80px 0;
     background-image: url(img/pizza-vila-guarani-jabaquara-main-3.jpg);
     background-size: cover;
+    background-position: center;
     padding: 20px 0;
 }
 .main_cardapio{
@@ -255,7 +254,7 @@ span.next:hover,span.prev:hover{
     text-decoration: none;
     padding: 10px 20px;
     border: 1px solid #000;
-    background-color: #ffffffc0;
+    background-color: #ffffff94;
     color: #000;
 }
 .main_cardapio a:hover{
@@ -294,7 +293,7 @@ span.next:hover,span.prev:hover{
 }
 #fa_pop{
     color: #25D366;
-    font-size: 4.5rem;
+    font-size: 4rem;
 }
 .whatsapp_btn_con{
     border-radius: 15px;
@@ -590,7 +589,7 @@ div > img {
   }
 
 
-@media(max-width: 990px){
+@media(max-width: 1040px){
     .toggle-button{
         display: flex;
     }
@@ -641,14 +640,13 @@ div > img {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        flex-direction: column;
-        flex-wrap: wrap;
+        flex-direction: row;
+        flex-wrap: nowrap;
         width: 100%;
         margin-top: 50px;
     }
     .main_cardapio{
         margin: 0 20px 20px;
-        width: 90%;
     }
     .main_cardapio img{
         width: 100%;
@@ -717,6 +715,9 @@ div > img {
     }
     .hidden_I{
         display: none;
+    }
+    .central_cardapio{
+        flex-wrap: wrap;
     }
 }
 
