@@ -248,6 +248,7 @@ span.next:hover,span.prev:hover{
     background-color: #ffffffb9;
     border: 1px solid #000;
     padding: 20px;
+    text-align: center;
 }
 .main_cardapio a{
     margin: 0 10px 10px;
