@@ -235,16 +235,29 @@ span.next:hover,span.prev:hover{
     color: #D40C16;
 }
 .central_cardapio{
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 80px 0;
-    background-image: url(img/pizza-vila-guarani-jabaquara-main-3.jpg);
-    background-size: cover;
-    background-position: center;
     padding: 20px 0;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: url(img/pizza-vila-guarani-jabaquara-main-3.jpg);
+        background-size: cover;
+        background-position: center;
+        opacity: 0.6;
+    }
+    
+    
 }
 .main_cardapio{
+    position: relative;
     background-color: #ffffffb9;
     border: 1px solid #000;
     padding: 20px;
